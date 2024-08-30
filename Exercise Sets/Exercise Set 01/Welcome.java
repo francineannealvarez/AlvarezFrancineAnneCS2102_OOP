@@ -6,8 +6,6 @@ public class Welcome {
         System.out.print("Enter your name: ");
         String name = scanner.nextLine();
         System.out.println("This course will be fun, ".concat(name).concat("!"));
-        //String greeting  = "This course will be fun, ";
         scanner.close();
-        }
-
+    }
 }
